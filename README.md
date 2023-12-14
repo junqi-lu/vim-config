@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Facilitate the seamless transition to a new environment by configuring vim with a single command.
+Facilitate the seamless transition to a new environment by configuring vim with simple commands.
 
 ## Usage
 
@@ -12,16 +12,10 @@ If not found, execute the following command:
 
 ```sh
 git clone --recursive https://github.com/junqi-lu/vim-config.git ~/.vim
+ln -s ~/.vim/.vimrc ~/.vimrc
 ```
 
 Adjust the `.vimrc` file to align with your specific preferences.
-
-If the configuration does not work, enter vim and try this:
-
-```sh
-vim
-:source ~/.vim/.vimrc
-```
 
 ## Plugins
 
